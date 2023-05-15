@@ -4,7 +4,7 @@ import MainContent from "./MainContent";
 
 function App() {
   return (
-    <div>
+    <div className="card-container">
       <Navbar />
       <MainContent />
     </div>

@@ -9,7 +9,7 @@ export default function Navbar() {
         </a>
         <p> ReactFacts</p>
       </div>
-      <nav>NavBar goes here</nav>
+      <nav>React Course - Project 1</nav>
     </div>
   );
 }

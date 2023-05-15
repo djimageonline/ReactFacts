@@ -2,16 +2,22 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  background-color: white;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.card-container {
+  background-color: #242424;
+  padding: 2em;
+  height: 400px;
 }
 
 /* Header  */
@@ -26,19 +32,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #1a1a1a;
+  width: 700px;
+  height: 60px;
+  padding: 1em;
+  margin-bottom: 2em;
 }
 
 .header-container p {
-  margin-left: 0;
+  margin-left: 5px;
   font-size: 2rem;
-  color: #6dd6ff;
+  color: #61DAFB;
+  font-weight: 700;
 }
 
 
  li {
   text-align: left;
 }
-
 
 
 a {
